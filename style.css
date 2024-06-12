@@ -1,0 +1,73 @@
+body {
+  font-family: Verdana;
+  font-size: 1.5em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("Dark Gradient 01back.png");
+  background-size: cover;
+}
+
+#myMain {
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 15px;
+  max-width: 390px;
+  overflow: hidden;
+  color: white;
+}
+
+#display {
+  width: 100%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+}
+
+#chaves {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:acitve {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.operador_btn {
+  background-color: hsl(35, 100%, 55%);
+}
+
+.operador_btn:hover {
+  background-color: hsl(35, 100%, 65%);
+}
+
+.operador_btn:active {
+  background-color: hsl(35, 100%, 75%);
+}
